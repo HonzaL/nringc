@@ -1,0 +1,23 @@
+{
+  "name": "nringc",
+  "version": "1.0.0",
+  "description": "Ring counters server scripts",
+  "main": "./lib/nringc",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HonzaL/nringc.git"
+  },
+  "dependencies": {
+    "pg": "2.1.0",
+    "pktime": "git://github.com/HonzaL/pktime.git#v1.0.0"
+  },
+  "author": "Jan Lisal <lisal.honza@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "1.7.x",
+    "should": "1.2.x"
+  }
+}
